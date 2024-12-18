@@ -1,0 +1,29 @@
+{
+    "name": "moundherb/pavhst",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moundherb\\Pavhst\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moundher Bensalmi",
+            "email": "moundhermoussab@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/http": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moundherb\\Pavhst\\PavhstServiceProvider"
+            ]
+        }
+    }
+}
